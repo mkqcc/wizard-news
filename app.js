@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
         <link rel="stylesheet" href="style.css" />
     </head>
     <div class="news-list">
-        <header><img src="/logo.png" />Wizard News</header>
+        <header><img src="logo.png" />Wizard News</header>
         ${posts.map(post => `
         <div class="news-item">
             <p>
